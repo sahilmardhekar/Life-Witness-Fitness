@@ -1,0 +1,70 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap'); */
+
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 20;
+}
+
+li, a, button {
+    font-family: "Source Sans Pro";
+    font-weight: 600;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #24252a;
+    padding: 20px 5%;
+}
+
+.project{
+    cursor: pointer;
+    color: #0088a9;
+}
+
+
+.logo{
+    border-radius: 50%;
+    cursor: pointer;
+    color: #edf0f1;
+    transition: width 1s, height 1s;
+}
+
+.logo:hover{
+  height: 70px;
+  width: 70px;
+}
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+    color: #0088a9;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
